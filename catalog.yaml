@@ -2,7 +2,7 @@
 projects:
   - main: artists-api.yaml
     assetId: artists-api
-    versioning: ~1.x.x
+    version: ~1.x.x
     apiVersion: v1
     tags:
       - oas
