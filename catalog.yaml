@@ -6,7 +6,7 @@ projects:
     apiVersion: v1
     tags:
       - oas
-      - frontend
+      - mobile
     categories:
       tier:
         - xapi
