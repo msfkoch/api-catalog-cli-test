@@ -7,8 +7,8 @@ info:
 servers:
   - url: https://example.io/v1
 
-security:
-  - BasicAuth: []
+# security:
+#   - BasicAuth: []
 
 paths:
   /artists:
