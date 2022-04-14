@@ -1,0 +1,6 @@
+#%Catalog Descriptor 0.7
+projects:
+  - main: artists-api.yaml
+    assetId: artists-api
+    version: 0.1.0
+    apiVersion: v1
