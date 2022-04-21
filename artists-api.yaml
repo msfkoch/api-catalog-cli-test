@@ -5,10 +5,7 @@ info:
   description: A simple API to illustrate OpenAPI concepts
 
 servers:
-  - url: https://artists-api-impl.herokuapp.com.ar
-
-security:
-  - BasicAuth: []
+  - url: https://artists-api-impl.herokuapp.com
 
 paths:
   /artists:
