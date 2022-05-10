@@ -1,4 +1,4 @@
-#%Catalog Descriptor 0.7
+#%Catalog Descriptor 1.0
 projects:
   - main: artists-api.yaml
     assetId: artists-api
