@@ -10,6 +10,8 @@ projects:
     categories:
       tier:
         - xapi
+    documentation:
+      Additional Information: Additional Information.md
 contact:
   name: "Fernando Koch"
   email: "fkoch@mulesoft.com"
