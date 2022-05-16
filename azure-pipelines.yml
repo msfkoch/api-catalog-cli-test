@@ -23,5 +23,5 @@ steps:
 #   displayName: 'Run a multi-line script'
 - task: Bash@3
   inputs:
-    filePath: 'api-catalog'
+    filePath: './node_modules/.bin/api-catalog'
     arguments: 'publish-asset --host=$ANYPOINT_HOST --force-publish'
