@@ -13,7 +13,8 @@ steps:
 - task: Npm@1
   inputs:
     command: 'install'
-    workingDir: 'api-catalog-cli@latest'
+    customRegistry: 'useFeed'
+    customFeed: 'c2fbf450-750a-4471-aa3a-7172db9bb39b/35e964ea-fa5b-459b-b47b-a27ecdbfe0f9'
 # - script: echo Hello, world!
 #   displayName: 'Run a one-line script'
 # - script: |
