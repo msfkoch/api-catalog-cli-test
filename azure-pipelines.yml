@@ -23,7 +23,7 @@ steps:
 #   displayName: 'Run a multi-line script'
 # - script: echo Hello, world $(ANYPOINT_HOST)
 #   displayName: 'Run a one-line script'
-- script: ./node_modules/.bin/api-catalog publish-asset --host='$(ANYPOINT_HOST)' --username="$(ANYPOINT_USERNAME)" --password="$(ANYPOINT_PASSWORD)"
+- script: ./node_modules/.bin/api-catalog publish-asset --host='https://qax.anypoint.mulesoft.com' --username="$(ANYPOINT_USERNAME)" --password="$(ANYPOINT_PASSWORD)"
   displayName: 'Publish via 1-line'
 # - task: Bash@3
 #   inputs:
