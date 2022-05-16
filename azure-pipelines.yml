@@ -21,7 +21,7 @@ steps:
 #     echo Add other tasks to build, test, and deploy your project.
 #     echo See https://aka.ms/yaml
 #   displayName: 'Run a multi-line script'
-- script: echo Hello, world!
+- script: echo Hello, world $(ANYPOINT_HOST)
   displayName: 'Run a one-line script'
 - task: Bash@3
   inputs:
