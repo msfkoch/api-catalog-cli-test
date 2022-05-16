@@ -1,0 +1,19 @@
+{
+  "name": "jenkins",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msfkoch/api-catalog-cli-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msfkoch/api-catalog-cli-test/issues"
+  },
+  "homepage": "https://github.com/msfkoch/api-catalog-cli-test#readme",
+  "dependencies": {
+    "api-catalog-cli": "^1.0.0"
+  }
+}
