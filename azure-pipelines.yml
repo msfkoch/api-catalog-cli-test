@@ -27,9 +27,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      # Write your commands here
-      
       echo 'publishing...'
       node --version
-      
-      ./node_modules/.bin/api-catalog publish-asset --host="$(ANYPOINT_HOST)" --force-publish --username="$(ANYPOINT_USERNAME)" --password="$(ANYPOINT_PASSWORD)"
+      echo ./node_modules/.bin/api-catalog publish-asset --host='$(ANYPOINT_HOST)' --force-publish --username="$(ANYPOINT_USERNAME)" --password="$(ANYPOINT_PASSWORD)"
+      ./node_modules/.bin/api-catalog publish-asset --host='$(ANYPOINT_HOST)' --force-publish --username="$(ANYPOINT_USERNAME)" --password="$(ANYPOINT_PASSWORD)"
