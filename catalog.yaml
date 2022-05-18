@@ -12,6 +12,12 @@ projects:
         - xapi
     documentation:
       Additional Information: Additional Information.md
+
+  - main: artists-graphql-api.raml
+    assetId: artists-graphql-api
+    version: 1.0.0
+    apiVersion: v1
+        
 contact:
   name: "Fernando Koch"
   email: "fkoch@mulesoft.com"
