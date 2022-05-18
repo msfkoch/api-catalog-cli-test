@@ -15,23 +15,5 @@ steps:
     command: 'install'
     customRegistry: 'useFeed'
     customFeed: 'c2fbf450-750a-4471-aa3a-7172db9bb39b/35e964ea-fa5b-459b-b47b-a27ecdbfe0f9'
-# - script: echo Hello, world!
-#   displayName: 'Run a one-line script'
-# - script: |
-#     echo Add other tasks to build, test, and deploy your project.
-#     echo See https://aka.ms/yaml
-#   displayName: 'Run a multi-line script'
-# - script: echo Hello, world $(ANYPOINT_HOST)
-#   displayName: 'Run a one-line script'
-- script: curl -vv https://qax.anypoint.mulesoft.com
-  displayName: 'curl host'
-- script: ./node_modules/.bin/api-catalog publish-asset --host='qax.anypoint.mulesoft.com' --username="$(ANYPOINT_USERNAME)" --password="$(ANYPOINT_PASSWORD)"
-  displayName: 'Publish via 1-line'
-# - task: Bash@3
-#   inputs:
-#     targetType: 'inline'
-#     script: |
-#       echo 'publishing...'
-#       node --version
-#       echo ./node_modules/.bin/api-catalog publish-asset --username="$(ANYPOINT_USERNAME)" --password="$(ANYPOINT_PASSWORD)"
-#       ./node_modules/.bin/api-catalog publish-asset --username="$(ANYPOINT_USERNAME)" --password="$(ANYPOINT_PASSWORD)"
+- script: ./node_modules/.bin/api-catalog publish-asset --host=$(ANYPOINT_HOST) --username="$(ANYPOINT_USERNAME)" --password="$(ANYPOINT_PASSWORD)"
+  displayName: 'Publish APIs'
