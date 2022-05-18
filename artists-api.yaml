@@ -7,8 +7,8 @@ info:
 servers:
   - url: https://artists-api-impl.herokuapp.com
 
-# security:
-#   - BasicAuth: []
+security:
+  - BasicAuth: []
 
 paths:
   /artists:
