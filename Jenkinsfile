@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Clone') {
       steps {
-        git(branch: '*/main', url: 'https://github.com/msfkoch/api-catalog-cli-test.git')
+        git(branch: 'main', url: 'https://github.com/msfkoch/api-catalog-cli-test.git')
       }
     }
   }
